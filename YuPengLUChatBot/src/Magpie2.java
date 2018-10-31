@@ -40,6 +40,15 @@ public class Magpie2
         else if (statement.indexOf("Mr.Folwell") >= 0) {
             response = "He sounds like a good teacher.";
         }
+        else if(statement.indexOf("games") >= 0) {
+            response = "Ever heard of Fortnite?";
+        }
+        else if(statement.indexOf("fortnite") >= 0){
+            response = "It's not a very good game.";
+        }
+        else if(statement.indexOf("love") >= 0) {
+            response = "I don't understand the concept of love.";
+        }
         else {
             response = getRandomResponse();
         }
